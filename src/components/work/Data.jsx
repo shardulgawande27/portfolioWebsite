@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
+import Work6 from "../../assets/work6.png";
 
 export const projectsData = [
   {
@@ -41,9 +42,17 @@ export const projectsData = [
     id: 5,
     image: Work5,
     title: "BotGenius (Video)",
-    category: "Full Stack",
+    category: "MERN Stack",
     link: "https://drive.google.com/file/d/1nxI89eH_AFaJbZEQraDvjhSXfOkWg5ry/view?usp=sharing",
     code: "https://github.com/shardulgawande27/BotGenuis",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "ProHire (Freelancing)",
+    category: "React Js",
+    link: "https://prohireco.netlify.app/",
+    code: "https://github.com/shardulgawande27/ProHire",
   },
 ];
 

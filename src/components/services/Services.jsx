@@ -42,10 +42,8 @@ const Services = () => {
 
               <h3 className="services__modal-title">Full Stack</h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae minus obcaecati iste, nisi iusto molestiae ea?
-                Repellat ex, quisquam voluptatibus quos quam suscipit! In
-                assumenda sed voluptatem unde dolore sapiente.
+                More than 1+ year of experience in MERN Stack. I can develop
+                well optimized web apps.
               </p>
 
               <ul className="services__modal-services grid">
@@ -63,22 +61,20 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Material UI</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions
+                    Making responsive web apps or website.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand
+                    Integrating AI chat in your web apps or website.
                   </p>
                 </li>
               </ul>
@@ -112,19 +108,16 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">UI/UX designer</h3>
+              <h3 className="services__modal-title">DSA</h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae minus obcaecati iste, nisi iusto molestiae ea?
-                Repellat ex, quisquam voluptatibus quos quam suscipit! In
-                assumenda sed voluptatem unde dolore sapiente.
+                Solved more than 400+ leetcode + geeks for geeks questions.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface
+                    I can teach you data structures and algorithms.
                   </p>
                 </li>
 
@@ -135,23 +128,17 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions
-                  </p>
+                  <p className="services__modal-info">Linked List.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand
-                  </p>
+                  <p className="services__modal-info">Binary trees.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand
-                  </p>
+                  <p className="services__modal-info">Graphs.</p>
                 </li>
               </ul>
             </div>
@@ -161,7 +148,10 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">Front-End</h3>
+            <h3 className="services__title">
+              Typescript
+              <br /> Development
+            </h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -182,47 +172,40 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Typescript Dev</h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae minus obcaecati iste, nisi iusto molestiae ea?
-                Repellat ex, quisquam voluptatibus quos quam suscipit! In
-                assumenda sed voluptatem unde dolore sapiente.
+                Developed 3 projects in Typescript
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop the user interface
-                  </p>
+                  <p className="services__modal-info">Next Js</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web development</p>
+                  <p className="services__modal-info">ShanCn UI</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions
-                  </p>
+                  <p className="services__modal-info">Clerk Authentaction</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
+                    UX element interactions
                   </p>
                 </li>
 
-                <li className="services__modal-service">
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I position your company brand
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
