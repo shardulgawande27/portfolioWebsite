@@ -10,7 +10,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
   },
@@ -20,16 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
