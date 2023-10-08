@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from "@iconify/react";
 
 const Social = () => {
   return (
@@ -23,6 +24,13 @@ const Social = () => {
         target="_blank"
       >
         <i className="uil uil-github"></i>
+      </a>
+      <a
+        href="https://leetcode.com/shardul007/"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <Icon icon="simple-icons:leetcode" />
       </a>
     </div>
   );
