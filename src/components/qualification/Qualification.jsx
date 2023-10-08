@@ -214,7 +214,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Finance Secretry</h3>
+                <h3 className="qualification__title">Finance Secretary</h3>
                 <span className="qualification__subtitle">IOT KJSIT</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> July 2021 - Feb 2022
