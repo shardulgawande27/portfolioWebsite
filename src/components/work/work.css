@@ -109,6 +109,8 @@
     .work__img{
         width: 100%;
     }
+
+    
    
 
   }
@@ -122,5 +124,8 @@
   
    .work__filters{
     column-gap: 0.25rem;
+    /* padding: 0 5rem; */
    }
+
+  
   }

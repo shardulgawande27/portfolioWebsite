@@ -9,10 +9,10 @@ export const Lang = () => {
     <div className="lang">
       <h2>Programming languages</h2>
       <div className="lang-content">
-        <img src={java} alt="" srcset="" />
-        <img src={js} alt="" srcset="" />
-        <img src={ts} alt="" srcset="" />
-        <img src={python} alt="" srcset="" />
+        <img src={java} alt="" />
+        <img src={js} alt="" />
+        <img src={ts} alt="" />
+        <img src={python} alt="" />
       </div>
     </div>
   );

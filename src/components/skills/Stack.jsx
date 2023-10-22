@@ -12,12 +12,12 @@ export const Stack = () => {
     <div className="stack">
       <h2>Tech Stack</h2>
       <div className="stack-content">
-        <img src={mongo} alt="" srcset="" />
-        <img src={ex} alt="" srcset="" />
-        <img src={react} alt="" srcset="" />
-        <img src={node} alt="" srcset="" />
-        <img src={next} alt="" srcset="" />
-        <img src={django} alt="" srcset="" />
+        <img src={mongo} alt="" />
+        <img src={ex} alt="" />
+        <img src={react} alt="" />
+        <img src={node} alt="" />
+        <img src={next} alt="" />
+        <img src={django} alt="" />
         <img src={fire} alt="" />
       </div>
     </div>

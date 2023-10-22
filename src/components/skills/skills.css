@@ -143,6 +143,14 @@
         font-size: var(--small-font-size);
     }
 
-    
+    .stack-content{
+        padding-left:5rem ;
+        
+    }
+
+    .stack img{
+        width: 22%;
+        /* margin-top: 3rem; */
+    }
   
   }
