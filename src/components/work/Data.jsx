@@ -5,6 +5,7 @@ import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
 import Work7 from "../../assets/work7.png";
+import Work8 from "../../assets/work8.png";
 
 export const projectsData = [
   {
@@ -62,6 +63,14 @@ export const projectsData = [
     category: "React Js",
     link: "https://getyaimage.netlify.app/",
     code: "https://github.com/shardulgawande27/GetYaImage",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "Bank Now",
+    category: "MERN Stack",
+    link: "https://banknowoffical.netlify.app/",
+    code: "https://github.com/shardulgawande27/bankNow",
   },
 ];
 
